@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solar System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="solar-system" id="system">
+  <div class="sun"></div>
+
+  <div class="earth-orbit" id="earthOrbit">
+    <div class="earth">
+      <div class="moon-orbit" id="moonOrbit">
+        <div class="moon"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="controls">
+  <button onclick="speedUp()">Speed Up</button>
+  <button onclick="slowDown()">Slow Down</button>
+  <button onclick="pauseOrbit()">Pause</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

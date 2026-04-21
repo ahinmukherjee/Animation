@@ -1,1 +1,1 @@
-# Animation
+# Devise an intricate hellocentric orbital simulation employing exclusively CSS based transformational and animation paradigms.
